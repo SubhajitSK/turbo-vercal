@@ -1,6 +1,12 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "ui": "tui",
+  "pipeline": {
+    "postinstall": {
+      "dependsOn": [],
+      "outputs": []
+    }
+  },
   "tasks": {
     "db:generate": {
       "cache": false

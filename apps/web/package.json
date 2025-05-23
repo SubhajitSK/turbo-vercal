@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit",
-    "postinstall": "echo \"web postinstall (nothing to do)\""
+    "postinstall": "echo no postinstall in web"
   },
   "dependencies": {
     "@repo/db": "workspace:*",
