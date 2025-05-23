@@ -5,8 +5,7 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --skip-generate",
     "db:push": "prisma db push",
-    "db:deploy": "prisma migrate deploy",
-    "postinstall": "prisma generate"
+    "db:deploy": "prisma migrate deploy"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",

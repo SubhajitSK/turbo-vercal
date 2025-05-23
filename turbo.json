@@ -3,7 +3,7 @@
   "ui": "tui",
   "tasks": {
     "postinstall": {
-      "dependsOn": [],
+      "dependsOn": ["db:generate"],
       "outputs": [],
       "inputs": ["./schema.prisma"]
     },
