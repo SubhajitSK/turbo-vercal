@@ -4,7 +4,8 @@
   "tasks": {
     "postinstall": {
       "dependsOn": [],
-      "outputs": []
+      "outputs": [],
+      "inputs": ["./schema.prisma"]
     },
     "db:generate": {
       "cache": false
