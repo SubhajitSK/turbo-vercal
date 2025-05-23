@@ -3,11 +3,12 @@
   "ui": "tui",
   "tasks": {
     "postinstall": {
+      "env": ["DATABASE_URL", "NODE_ENV"],
       "dependsOn": ["db:generate"],
-      "outputs": [],
-      "inputs": ["./schema.prisma"]
+      "outputs": []
     },
     "db:generate": {
+      "env": ["DATABASE_URL", "NODE_ENV"],
       "cache": false
     },
     "db:migrate": {
